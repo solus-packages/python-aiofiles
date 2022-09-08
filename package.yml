@@ -1,0 +1,15 @@
+name       : python-aiofiles
+version    : 0.8.0
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/source/a/aiofiles/aiofiles-0.8.0.tar.gz : 8334f23235248a3b2e83b2c3a78a22674f39969b96397126cc93664d9a901e59
+homepage   : https://github.com/Tinche/aiofiles
+license    : Apache-2.0
+component  : programming.python
+summary    : File support for asyncio
+description: |
+    aiofiles is a library, for handling local disk files in asyncio applications.
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
